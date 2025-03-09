@@ -5,7 +5,9 @@ import Navbar from './components/partial/Navbar';
 import Footer from './components/partial/Footer';
 import About from './components/About';
 import Contact from './components/Contact';
-
+import Services from './components/Services';
+import Single from './components/Single';
+import Gallery from './components/Gallery';
 
 
 
@@ -18,6 +20,9 @@ function App() {
           <Switch>
             <Route exact path='/'component={Home}/>
             <Route path='/about' component={About}/>
+            <Route path='/services' component={Services}/>
+            <Route path='/single' component={Single}/>
+            <Route path='/gallery' component={Gallery}/>
             <Route path='/contact' component={Contact}/>
           </Switch>
         <Footer/>
