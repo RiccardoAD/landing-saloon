@@ -7,7 +7,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Services from './components/Services';
 import Single from './components/Single';
-import Gallery from './components/Gallery';
+import Gallery from './components/Gallary';
 
 
 
